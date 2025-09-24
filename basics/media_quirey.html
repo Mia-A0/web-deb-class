@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+
+        h1 { font-style: 82pt; }
+        div {
+            background-color: rgb(148, 143, 143);
+            margin: 24px;
+            width: calc(25% - 48px);
+            height: 200px;
+            float: left;
+        }
+
+        @media screen and (max-width: 900px) {
+            div {
+                background-color: hotpink;
+                margin: 12px;
+                width: calc(25% - 24px);
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            div {
+                float: none;
+                background-color: cornsilk;
+                width: calc(100% - 24px);
+            }
+        }
+
+            
+        
+    </style>
+</head>
+<body>
+    <h1>Media Quires</h1>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>
