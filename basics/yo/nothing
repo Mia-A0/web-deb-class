@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport">
+  <title>Ibiza Vacation Destination</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: rgb(0, 124, 186);
+      color: #000;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      border-bottom: 2px solid #000;
+    }
+
+    header img {
+      height: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    .login-btn {
+      border: 1px solid #000;
+      padding: 5px 12px;
+      background: none;
+      cursor: pointer;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      background-color: hsl(206, 100%, 70%);
+      border-bottom: 2px solid #000;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    .hero-text h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .hero-text p {
+      font-size: 1em;
+      margin-bottom: 20px;
+      line-height: 1.4em;
+    }
+
+    .hero-text a {
+      color: #1a0dab;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero img {
+      width: 45%;
+      border-radius: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+      border-bottom: 2px solid #000;
+      gap: 40px;
+    }
+
+    .gallery img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="img/677777.jpeg">
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ABOT</a>
+      <a href="#">DESTINATIONS</a>
+      <a href="#">SELL</a>
+      <a href="#">CONTACT</a>
+      <button class="login-btn">LOGIN/SIGN UP</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Ibiza Vacation Destination</h1>
+      <p>Your one-stop-shop for the ultimate Mediterranean escape! Enjoy crystal-clear waters, world-famous nightlife, and stunning beach views. 
+      Whether you want to relax or party all night, Ibiza has something for everyone.</p>
+      <a href="#">Book Now</a>
+    </div>
+    <img src=https://www.clubvillamar.com/blog/wp-content/uploads/2018/01/shutterstock_639796432-3-1024x459.jpg alt="Ibiza">
+  </section>
+
+  <section class="gallery">
+    <img src="img/es-vedra-ibiza-s2540022863.avif">
+    <img src="img/GettyImages-1275773306_IBIZA_RESIZED.avif">
+    <img src="img/Peter-Lik-Ibiza-Shores-Framed-Recess-Mount_1800x.webp">
+    <img src="img/shutterstock_639796432-3-1024x459.jpg">
+    <img src="img/sa-tuna-village-ibiza.jpg">
+    
+  </section>
+
+<style>
+  .ibiza-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px 0;
+    background-color: #f2f2f2;
+  }
+
+  .ibiza-card {
+    background-color: #fff;
+    width: 320px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border-radius: 4px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+
+  .ibiza-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ibiza-card h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #111;
+  }
+
+  .ibiza-card p {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.6;
+    padding: 0 20px 25px;
+    margin: 0;
+  }
+</style>
+
+<section class="ibiza-section">
+
+  <div class="ibiza-card">
+    <img src="img/sunset.jpg" alt="Ibiza Sunset Bliss">
+    <h3>Ibiza Sunset Bliss</h3>
+    <p>
+      Bask in the warm glow of Ibiza’s legendary sunsets, where golden skies meet tranquil Mediterranean waters.
+    </p>
+  </div>
+
+  <div class="ibiza-card">
+    <img src="img/hills.jpeg" alt="Hidden Hills Retreat">
+    <h3>Hidden Hills Retreat</h3>
+    <p>
+      Discover Ibiza’s peaceful countryside — lush valleys, ancient olive trees, and luxurious hillside villas.
+    </p>
+  </div>
+
+  <div class="ibiza-card">
+    <img src="img/dj.jpg" alt="Hidden Hills Retreat">
+    <h3>DJ By the Beach</h3>
+    <p>
+     Feel the rhythm of the island with beachfront parties, crystal waters, and unforgettable seaside energy.
+    </p>
+
+</section>
+
