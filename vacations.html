@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destination</title>
+    <style>
+        *{box-sizing: border-box;}
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 30px;
+            padding: 12px 50px;
+        }
+
+        nav img {width: 50px;}
+        nav a:first-of-type {margin-left: auto;}
+        nav .login_button {
+            border: 1px solid rgb(72, 119, 146);
+            padding: 8px 16px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            border-bottom: 2px solid rgb(72, 119, 146);
+            border-top: 2px solid rgb(72, 119, 146);;
+            margin-top: 30px;
+            background-color: rgb(142, 183, 207);;
+        }
+
+        header div {width: 50%;}
+        header img {width: 100%;}
+        header .chicago {
+            height: 300%;
+            overflow: hidden;
+            display: flex;
+            align-items: flex-end;
+            border-radius: 50px; 
+        }
+
+        .circles img{
+      
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            gap: 150px;
+      
+        }
+
+        .circles {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 150px;
+        }
+
+        .places{
+            background-color: rgb(181, 218, 239);
+            padding: 35px 0;
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+
+        .cards-container{
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            flex-wrap: wrap;
+        }
+
+        .card img{
+            height: 200px;
+            width: 250px;
+        }
+
+        .card{
+            background-color:rgb(187, 186, 186);
+            width: 300px;
+            box-shadow: 0 4px 8px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="imgs/383361-200.png" alt="Chicago">
+        <a href="#">HOME</a>
+        <a href="#">ABOUT</a>
+        <a href="#">DESTINATION</a>
+        <a href="#">SELL</a>
+        <a href="#">CONTACT</a>
+        <a href="#" class="login_button">Login/Sign Up</a>
+    </nav>
+
+    <header>
+        <div>
+            <h1>Chicago Destination</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cumque amet ad sequi aut consequuntur nemo, corporis officia esse perspiciatis quis sit obcaecati ex ipsum et, delectus cupiditate quasi facere.</p>
+            <a href="a">Book Now</a>
+        </div>
+        <div class="chicago">
+            <img src="imgs/MG_Group_Chicago_Landmarks-1024x683.jpg" alt="Chicago">
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section class="circles">
+        <img src="imgs/download.jpeg" alt="Tower">
+        <img src="imgs/chicago-skyline-sunset-lake-michigan-view-adler-planetarium-prominent-buildings-architecture-jpg-vector-illustration-ai-generated-363437681.jpg.webp" alt="Chicago Skyline">
+        <img src="imgs/635896699483303584-Serge-Melki_254725_ver1.0.jpg" alt="navy pier">
+        <img src="imgs/8ac0318a006316196fda2617cc71ea57.jpg" alt="chicago Sign">
+        <img src="imgs/1be9844b20eca328a911c0cb4d8a7c5f.jpg" alt="Tower">
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="places">
+    <div class="cards-container">
+        <div class="card">
+            <h1>Navy Pier</h1>
+            <img src="imgs/Navy_Pier_1190x1585.jpg" alt="Navy Pier">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate, dolor quas provident quos consequuntur sed delectus modi quia vitae repellendus, autem suscipit neque debitis sint nobis voluptates? Odio, dignissimos?</p>
+        </div>
+
+        <div class="card">
+            <h1>Willis Tower</h1>
+            <img src="imgs/1be9844b20eca328a911c0cb4d8a7c5f.jpg" alt="Willis Tower">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eos ratione deserunt perferendis iste, consequuntur praesentium iusto magnam quos hic omnis at, tempore consectetur voluptas nesciunt animi error explicabo labore.</p>
+        </div>
+
+        <div class="card">
+            <h1>Wrigley Field</h1>
+            <img src="imgs/d56ca4b50dc56c0b34bb0c42188d4871.jpg" alt="Wrigley Field">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis dolore excepturi dignissimos quis odio, necessitatibus libero, suscipit in repellat a minus veniam explicabo earum eum. Ipsa enim adipisci error.</p>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
