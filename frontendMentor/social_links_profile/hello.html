@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <style>
+    body {
+      background-color: #141414;
+      font-family: 'Inter', sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: #1f1f1f;
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      width: 320px;
+    }
+
+    .card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    .card h2 {
+      font-size: 1.3rem;
+      margin: 0.5rem 0 0;
+    }
+
+    .card p.location {
+      color: #ef98bc;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .card p.bio {
+      color: #bfbfbf;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    .card a {
+      display: block;
+      background-color: #333333;
+      color: white;
+      text-decoration: none;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+
+    .card a:hover {
+      background-color: #ef98bc;;
+      color: #1f1f1f;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/80" alt="Profile Picture">
+    <h2>Mia Accola</h2>
+    <p class="location">Fort Myers, Fl</P>
+    <p class="bio">"Front-end developer and Gamer."</p>
+    <a href="#">GitHub</a>
+    <a href="#">Frontend Mentor</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Twitter</a>
+    <a href="#">Instagram</a>
+  </div>
+</body>
+</html>
