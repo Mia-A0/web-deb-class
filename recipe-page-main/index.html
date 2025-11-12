@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color:hsl(30, 54%, 90%) ;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      color: hsl(24, 5%, 18%);
+    }
+
+    .recipecard {
+      background-color:hsl(0, 0%, 100%);
+      border-radius: 16px;
+      max-width: 600px;
+      padding: 30px;
+    }
+    .container img {
+      width: 100%;
+      border-radius: 15px;
+      margin: 30px auto;
+      display: block;
+      margin-top: 40px;
+      
+    }
+
+    .recipecard h1 {
+      margin-left: 50px;
+      margin-top: 45px;
+    }
+  .Preparation{
+    background-color:hsl(330, 100%, 98%); ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0;
+    margin-left: 50px;
+    
+  }
+  
+  .Preparation h3{
+    color: hsl(332, 51%, 32%) ;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-top: 40px;
+    ;
+  }
+
+  .Preparation ul{
+    margin: 10px 0 0 20px;
+    padding: 0%;
+  }
+
+  .Preparation li {
+    margin-bottom: 5px;
+
+  }
+
+  .Ingredients{
+    margin-top: 50px ;
+    margin-bottom:50px ;
+    background-color: ;
+  }
+
+  .Ingredients ul{
+    margin: 10px 0 0 20px;
+    padding: 0;
+  }
+
+  .Ingredients li{
+    font-size: medium;
+  }
+
+  .Nutrition {
+  
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .Nutrition table {
+    border-collapse: collapse;
+  }
+  
+  .Nutrition tr {
+    border-bottom: 1px solid hsl(180, 55%, 41%);
+  }
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  background-color:hsl(0, 0%, 100%) ;
+}
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div>
+      <img src="assets/images/image-omelette.jpeg" alt="omlette">
+      <h1>Simple Omelette Recipe</h1>
+      <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+    to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+    </div>
+
+    <div class="Preparation">
+      <h3>Preperation Time</h3>
+      <ul>
+        <li><strong>Total:</strong>Approximately 10 minutes</li>
+        <li><strong>Preparation:</strong>5 minutes</li>
+        <li><strong>Cooking:</strong>5 minutes</li>
+      </ul>
+    </div>
+
+    <div class="Ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>Optional filling, cheese, diced vegitables, cooked meats, herbs</li>
+      </ul>
+    </div>
+
+    Instructions
+
+    Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+    You can add a tablespoon of water or milk for a fluffier texture.
+
+    Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+
+    Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+    the eggs evenly coat the surface.
+
+    Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+    middle, sprinkle your chosen fillings over one half of the omelette.
+
+    Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+    fillings. Let it cook for another minute, then slide it onto a plate.
+
+    Enjoy: Serve hot, with additional salt and pepper if needed.
+    
+    <div class="Nutrition">
+      <h2>Nutrition</h2>
+      <p>The table below shows nutritional values per serving without the additional fillings.</p>
+      <table>
+        <tr>
+          <td>Calories</td>
+          <td><strong>277kcal</strong></td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td><strong>0g</strong></td>
+        </tr>
+        <tr>
+            <td>Protein</td>
+            <td><strong>20g</strong></td>
+        </tr>
+        <tr>
+            <td>Fat</td>
+            <td><strong>22g</strong></td>
+        </tr>
+      </table>
+    </div>
+
+
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Mia Accola</a>.
+    </div>
+  </div>
+</body>
+</html>
