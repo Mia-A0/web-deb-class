@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color:rgb(216, 138, 78) ;
+      font-family: "Outfit", sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      color: hsl(24, 5%, 18%);
+    }
+
+    .recipecard {
+      background-color:hsl(0, 0%, 100%);
+      border-radius: 16px;
+      max-width: 600px;
+      padding: 30px;
+    }
+    .container img {
+      width: 100%;
+      border-radius: 15px;
+      margin: 30px auto;
+      display: block;
+      margin-top: 40px;
+      
+    }
+
+    .recipecard h1 {
+      margin-left: 50px;
+      margin-top: 45px;
+    }
+  .Preparation{
+    background-color:rgb(215, 192, 173); ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+  
+  .Preparation h3{
+    color: rgb(100, 70, 43); ;
+    margin-top: 0;
+    margin-left: 0%;
+    margin-top: 10px;
+    ;
+  }
+
+  .Preparation ul{
+    margin: 10px 0 0 20px;
+    padding: 0%;
+  }
+
+  .Preparation li {
+    margin-bottom: 5px;
+
+  }
+
+  .Ingredients{
+    margin-top: 50px ;
+    margin-bottom:50px ;
+    background-color: ;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-bottom: 30px;
+  }
+
+  .Ingredients ul{
+    margin: 10px 0 0 20px;
+    padding: 0;
+  }
+
+  .Ingredients li{
+    font-size: medium;
+  
+  }
+
+  .Nutrition {
+  
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .Nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .Nutrition tr {
+    border-bottom: 1px solid  hsl(30, 18%, 87%)
+  }
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+  background-color:hsl(0, 0%, 100%) ;
+  padding: 32px;
+}
+
+h2{
+  color:rgb(216, 138, 78) ;
+  font-family: "Young serif", sans-serif;
+}
+
+.Instructions{
+   border-bottom: 1px solid  hsl(30, 18%, 87%);
+   padding-bottom: 30px;
+}
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div>
+      <img src="imgs/classic-gravy-6fd82b34.jpg.webp" alt="omlette">
+      <h1>Delicious Gravy Recipe</h1>
+      <p>This gravy seems normal at first, but once it hits the plate, it totally takes over in the best way. It sneaks into every bite, making the whole meal taste way better than you expected. It’s basically the smooth, boss-level star of Thanksgiving without even trying.</p>
+    </div>
+
+    <div class="Preparation">
+      <h3>Preperation Time</h3>
+      <ul>
+        <li><strong>Total:</strong> Approximately 35 minutes</li>
+        <li><strong>Preparation:</strong> 15 minutes</li>
+        <li><strong>Cooking:</strong> 20 minutes</li>
+      </ul>
+    </div>
+
+    <div class="Ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>4 cups of broth or stock</li>
+        <li>10 tablespoons of butter</li>
+        <li>2/3 cup all-purpose flour</li>
+        <li>1 tablespoon bouillon paste</li>
+        <li>salt and pepper to taste</li>
+      </ul>
+    </div>
+
+   <div class="Instructions">
+    <h2>Instructions</h2>
+<ol>
+   <li><strong>Warm The Broth/Stock:</strong> in a saucepan or in the microwave until steaming. Keep warm.</li>
+
+   <li><strong>Butter & Flour:</strong> Melt the butter in a medium saucepan over medium heat. Add the flour and cook, whisking constantly, until the roux is golden brown, 4 to 5 minutes. Whisk in the bouillon paste, if using.</li>
+
+   <li><strong>Whisking:</strong> Whisking constantly and quickly, slowly ladle in warm broth about 1/2 cup at a time. Combine fully before adding more. The mixture will look crumbly and may even look curdled. It's ok! Trust the process.
+   </li>
+
+   <li><strong>Simmer:</strong>Whisking constantly and quickly, slowly ladle in warm broth about 1/2 cup at a time. Combine fully before adding more. The mixture will look crumbly and may even look curdled. It's ok! Trust the process.
+   </li>
+
+   <li><strong>Serve:</strong> Serve immediately or keep warm to serve later. The gravy will thicken as it cools..</li>
+
+   <li><strong>Enjoy:</strong> Eat the delicious gravy, with additional salt and pepper if needed.</li>
+  </ol>
+  </div>
+
+    <div class="Nutrition">
+      <h2>Nutrition</h2>
+      <p>The table below shows nutritional values per serving without the additional fillings.</p>
+      <table>
+        <tr>
+          <td>Calories</td>
+          <td><strong>236cal</strong></td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td><strong>6g</strong></td>
+        </tr>
+        <tr>
+            <td>Protein</td>
+            <td><strong>7g</strong></td>
+        </tr>
+        <tr>
+            <td>Fat</td>
+            <td><strong>17g</strong></td>
+        </tr>
+      </table>
+    </div>
+
+
+    
+    
+    
+  </div>
+</body>
+</html>
