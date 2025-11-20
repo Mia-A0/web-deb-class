@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      background-color:rgb(186, 143, 110) ;
+      font-family: "Outfit", sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      color: hsl(24, 5%, 18%);
+    }
+
+    .recipecard {
+      background-color:hsl(0, 0%, 100%);
+      border-radius: 16px;
+      max-width: 600px;
+      padding: 30px;
+    }
+    .container img {
+      width: 100%;
+      border-radius: 15px;
+      margin: 30px auto;
+      display: block;
+      margin-top: 40px;
+      
+    }
+
+    .recipecard h1 {
+      margin-left: 50px;
+      margin-top: 45px;
+    }
+  .Preparation{
+    background-color:rgb(215, 192, 173); ;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+  }
+  
+  .Preparation h3{
+    color: rgb(100, 70, 43); ;
+    margin-top: 0;
+    margin-left: 0%;
+    margin-top: 10px;
+    ;
+  }
+
+  .Preparation ul{
+    margin: 10px 0 0 20px;
+    padding: 0%;
+  }
+
+  .Preparation li {
+    margin-bottom: 5px;
+
+  }
+
+  .Ingredients{
+    margin-top: 50px ;
+    margin-bottom:50px ;
+    background-color: ;
+    border-bottom: 1px solid  hsl(30, 18%, 87%);
+    padding-bottom: 30px;
+  }
+
+  .Ingredients ul{
+    margin: 10px 0 0 20px;
+    padding: 0;
+  }
+
+  .Ingredients li{
+    font-size: medium;
+  
+  }
+
+  .Nutrition {
+  
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .Nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .Nutrition tr {
+    border-bottom: 1px solid  hsl(30, 18%, 87%)
+  }
+
+.container {
+  width: 900px;
+  margin: 50px auto;
+  background-color:hsl(0, 0%, 100%) ;
+  padding: 32px;
+}
+
+h2{
+  color:rgb(105, 72, 46) ;
+  font-family: "Young serif", sans-serif;
+}
+
+.Instructions{
+   border-bottom: 1px solid  hsl(30, 18%, 87%);
+   padding-bottom: 30px;
+}
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div>
+      <img src="imgs/garlic-mashed-potatoes_thecozyapron_1.jpg" alt="Mashed patatoes">
+      <h1>Creamy Mashed Potatoes</h1>
+      <p>They’re ultra-rich and blissfully creamy, and the sour cream gives them a delicious tangy kick. They’re easy to make (and make ahead!), and they’re guaranteed to be a crowd pleaser at Thanksgiving or any meal. You’re going to love this mashed potatoes recipe.</p>
+    </div>
+
+    <div class="Preparation">
+      <h3>Preperation Time</h3>
+      <ul>
+        <li><strong>Total:</strong> 45 minutes</li>
+        <li><strong>Preparation:</strong> 15 minutes</li>
+        <li><strong>Cooking:</strong> 30 minutes</li>
+      </ul>
+    </div>
+
+    <div class="Ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        <li>3 pounds yield of potatoes</li>
+        <li>3 Garlic Cloves</li>
+        <li>1/2 cup Unsalted Butter</li>
+        <li>1 cup Whole Milk</li>
+        <li>Salt and Pepper</li>
+        <li>Sour Cream</li>
+      </ul>
+    </div>
+
+   <div class="Instructions">
+    <h2>Instructions</h2>
+<ol>
+   <li><strong>Step One:</strong> Place the potatoes and garlic in a large pot and cover with cold water by 1 inch. Season the water with a tablespoon of salt.</li>
+
+   <li><strong>Step Two:</strong> Bring the water to a boil over high heat, then reduce the heat to medium and gently boil for 15 to 20 minutes, or until the potatoes are fork-tender. Drain the potatoes and return to the pot</li>
+
+   <li><strong>Step Three:</strong> Begin to mash the potatoes and garlic with a potato masher. When they are partially mashed, add the butter, milk, salt, and several grinds of pepper. Continue mashing until the potatoes reach your desired consistency (we like them totally smooth), then use a spatula or wooden spoon to fold in the sour cream, if using.</li>
+
+   <li><strong>Step Four:</strong>Season to taste and serve topped with butter and chives.
+   </li>
+
+   <li><strong>Step Five:</strong> Serve immediately or keep warm to serve later.</li>
+
+   <li><strong>Enjoy:</strong> Eat the creamy mashed potatoes with the delicious gravy, with additional salt and pepper if needed.</li>
+  </ol>
+  </div>
+
+    <div class="Nutrition">
+      <h2>Nutrition</h2>
+      <p>The table below shows nutritional values per serving without the additional fillings.</p>
+      <table>
+        <tr>
+          <td>Calories</td>
+          <td><strong>214cal</strong></td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td><strong>35g</strong></td>
+        </tr>
+        <tr>
+            <td>Protein</td>
+            <td><strong>4g</strong></td>
+        </tr>
+        <tr>
+            <td>Fat</td>
+            <td><strong>7g</strong></td>
+        </tr>
+      </table>
+    </div>
+
+
+    
+    
+    
+  </div>
+</body>
+</html>
